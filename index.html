@@ -68,10 +68,10 @@
 
             let result = document.getElementById('result');
             if (word === reversedWord) {
-                result.textContent = "${word}";
+                result.textContent = `${word}`;
                 result.style.color = 'green';
             } else {
-                result.textContent = "${word}";
+                result.textContent = `${word}`;
                 result.style.color = 'red';
             }
         }
@@ -90,10 +90,11 @@
 
     let result = document.getElementById('result');  
     if (word === reversedWord) {
-        result.textContent = "${word}"; 
+        result.textContent = `${word}`; 
         result.style.color = 'green';
     } else {
-        result.textContent = "${word}";  
-        result.style.color = 'red'; }
+        result.textContent = `${word}`;  
+        result.style.color = 'red'; 
+    }
 }
 </script>
